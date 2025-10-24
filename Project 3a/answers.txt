@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know? When you give sort1 a list that’s already in order, it finishes almost instantly, no matter how big the list is. But if the list is all mixed up, sort1 gets much slower as the list gets bigger. That’s a big clue that it’s using Bubble Sort, because Bubble Sort is really quick with sorted lists but can be painfully slow with random ones.
+
+sort2 uses: Merge Sort
+
+How do you know? sort2 is the fastest when working with large, jumbled lists. It doesn’t slow down nearly as much as the other sorts, even as the list grows. This is exactly how Merge Sort behaves, it’s built to handle big amounts of data efficiently by breaking things up and sorting smaller pieces, then putting them back together. That’s why sort2 stands out as the quickest for big lists.
+
+sort3 uses: Selection Sort
+
+How do you know? sort3 takes about the same amount of time whether the list is already sorted or completely random. It also ends up being just as slow as sort1 on big lists. That’s a classic sign of Selection Sort, because it always goes through the entire list over and over, no matter what order the items are in.
